@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The doggiegram gives users the ability to maintain a library of dog photos along with a caption for breed. The page is searchable and will return any item that has a matching string anywhere in the caption.
+
+This project utilizes React Redux to manage state across all of the individual components, and Thunk to query a local api to receive a suggestion for the user. 
+
 ## Available scripts
 
 In the project directory, you can run the following commands:
